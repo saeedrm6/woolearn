@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'welearn';
+	src: url(../fonts/Vazir-FD.eot) format("eot"), url(../fonts/Vazir-FD.woff) format("woff"), url(../fonts/Vazir-FD.ttf) format("truetype");
+}
+body {
+	font-family: 'welearn';
+	direction: rtl;
+}
+.DTFC_LeftWrapper, .DTFC_LeftBodyWrapper, .DTFC_LeftHeadWrapper {
+	right: 0 !important;
+	left: auto !important;
+}
+.dataTables_scroll {
+	left: 0 !important
+}
+.dataTables_scrollBody .dataTable {
+	width: 100% !important
+}
+table.compare-list th {
+	text-align: right;
+}
+.description p {
+	padding: 10px;
+	line-height: 30px;
+	text-align: justify;
+}
